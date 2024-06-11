@@ -1,0 +1,31 @@
+{% extends 'base_generic.html' %}
+
+{% block content %}
+<div style="text-align: center; margin-bottom: 20px;">
+    <img src="https://www.martinasclassesgoldcoast.com/uploads/4/2/6/6/42666647/bannerblog1000x300dark_orig.jpg" alt="Mini Blog Banner" style="width: 100%; height: auto;">
+</div>
+
+<div>
+    <h2 style="color: #2c3e50; text-align: center;">MINI BLOG</h2>
+    <p style="text-align: center; font-size: 18px;">
+        Welcome to Mini Blog, a website developed by
+        <strong>Hang Nguyen</strong>!
+      </p>
+</div>
+
+<div>
+    <div>
+        <h4>Start Your Blogging Journey Today</h4>
+        <ul>
+            <li>MiniBlog offers you a simple and elegant platform to share your thoughts and stories with the world. Whether you're a seasoned writer or just starting out, you'll find our tools and features easy to use and incredibly effective.</li>
+            <li>Join our community of passionate bloggers, explore a variety of topics, and get inspired by others. With MiniBlog, your voice can reach a global audience.</li>
+            <li>Go ahead! Create an account and start blogging!</li>
+        <ul>
+    </div>
+</div>
+
+<p>
+    You have visited this page {{ num_visits }} time{{ num_visits|pluralize }}.
+</p>
+
+{% endblock %}
